@@ -1,22 +1,34 @@
 # CryptoMine Overview
-{Project goals; Talk about what you are trying to accomplish as a software engineer to further your learning.}
+CryptoMine is a personal project aimed at deepening my understanding of blockchain technology, cryptocurrency mining, and software engineering best practices. This project allows me to explore real-time WebSocket communication, cryptographic hashing (SHA-256), and parallel computing while implementing a basic Bitcoin mining algorithm.
 
 ## Description
-{Provide a description of your software}
+This CryptoMine is a Rust-based Bitcoin mining application that connects to the Blockchain.com WebSocket API to receive real-time block data. It extracts the necessary components, such as the previous block hash and Merkle root, then performs Proof of Work (PoW) mining by iterating through nonce values to find a valid SHA-256 hash that meets the required difficulty target.
 
 ## Purpose
-{Describe your purpose for creating this software.}
+The purpose of this project is to:
+- Gain hands-on experience with cryptocurrency mining algorithms.
+- Learn how to interact with real-time blockchain data via WebSockets.
+- Explore cryptographic hashing and Proof of Work consensus mechanisms.
+- Improve my Rust programming skills and apply concurrency for performance optimization.
 
 # Development Environment
 
 ## Tools
-{Describe the tools that you used to develop the software}
+- **Blockchain.com WebSocket API** – Provides real-time Bitcoin transaction and block data.
+- **Rust** – The main programming language for the application.
+- **Tokio** – An asynchronous runtime for handling WebSocket connections.
+- **Tokio-Tungstenite** – A WebSocket client for Rust.
+- **SHA2 crate** – Used to compute SHA-256 hashes.
+- **Serde & Serde-JSON** – Used for parsing JSON data from the API.
+- **Hex crate** – For encoding/decoding hexadecimal data.
 
 ## Language
-{Describe the programming language that you used}
+CryptoMine is developed using **Rust**, a systems programming language known for its safety, performance, and concurrency capabilities. Rust’s ownership model and async support make it a great choice for handling WebSockets and high-performance cryptographic operations.
 
 # Useful Websites
+* [Blockchain.com API](https://www.blockchain.com/api) – Provides real-time Bitcoin network data.
+* [Rust Programming Language](https://www.rust-lang.org/) – Official Rust documentation and resources.
+* [Tokio Async Runtime](https://tokio.rs/) – Documentation on asynchronous programming in Rust.
+* [Rust Crates](https://crates.io/) – A registry of Rust libraries, including those used in this project.
+* [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf) – The original paper by Satoshi Nakamoto explaining Bitcoin and Proof of Work.
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
