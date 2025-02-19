@@ -1,8 +1,8 @@
 # CryptoMine Overview
-CryptoMine is a personal project aimed at deepening my understanding of blockchain technology, cryptocurrency mining, and software engineering best practices. This project allows me to explore real-time WebSocket communication, cryptographic hashing (SHA-256), and parallel computing while implementing a basic Bitcoin mining algorithm.
+CryptoMine is a project aimed at deepening my understanding of blockchain technology, cryptocurrency mining, and software engineering best practices. This project allows me to explore real-time WebSocket communication, cryptographic hashing (SHA-256), and parallel computing while implementing a basic Bitcoin mining algorithm.
 
 ## Description
-This CryptoMine is a Rust-based Bitcoin mining application that connects to the Blockchain.com WebSocket API to receive real-time block data. It extracts the necessary components, such as the previous block hash and Merkle root, then performs Proof of Work (PoW) mining by iterating through nonce values to find a valid SHA-256 hash that meets the required difficulty target.
+This CryptoMine is a Rust-based Bitcoin mining application that connects to the Blockchain.com WebSocket API to receive real-time block data. It extracts the necessary components, such as the previous block hash and Merkle root, then performs mining by iterating through nonce values to find a valid SHA-256 hash that meets the required difficulty target.
 
 ## Purpose
 The purpose of this project is to:
@@ -15,7 +15,7 @@ The purpose of this project is to:
 
 ## Tools
 - **Blockchain.com WebSocket API** – Provides real-time Bitcoin transaction and block data.
-- **Rust** – The main programming language for the application.
+- **Rust** – The main programming language for the application using VS Code.
 - **Tokio** – An asynchronous runtime for handling WebSocket connections.
 - **Tokio-Tungstenite** – A WebSocket client for Rust.
 - **SHA2 crate** – Used to compute SHA-256 hashes.
@@ -23,7 +23,7 @@ The purpose of this project is to:
 - **Hex crate** – For encoding/decoding hexadecimal data.
 
 ## Language
-CryptoMine is developed using **Rust**, a systems programming language known for its safety, performance, and concurrency capabilities. Rust’s ownership model and async support make it a great choice for handling WebSockets and high-performance cryptographic operations.
+CryptoMine is developed using **Rust** for its safety, performance, and concurrency capabilities.
 
 # Useful Websites
 * [Blockchain.com API](https://www.blockchain.com/api) – Provides real-time Bitcoin network data.
