@@ -1,3 +1,5 @@
+https://prod.liveshare.vsengsaas.visualstudio.com/join?B7A6880DB949061D75ADC3DB0F90E9E5934B
+
 # CryptoMine Overview
 CryptoMine is a project aimed at deepening my understanding of blockchain technology, cryptocurrency mining, and software engineering best practices. This project allows me to explore real-time WebSocket communication, cryptographic hashing (SHA-256), and parallel computing while implementing a basic Bitcoin mining algorithm.
 
