@@ -14,8 +14,8 @@ The purpose of this project is to:
 # Development Environment
 
 ## Tools
-- **Live Share** - [Live Share link]([https://www.blockchain.com/api](https://prod.liveshare.vsengsaas.visualstudio.com/join?E82AE580C71A57B0575A362E2C9B53117872))
-- **Presentation Scipt** - [Script link](https://docs.google.com/document/d/1IB-TiJC02yjrdiHLuEEWTivqUQY1u4DY0oFXVIu_Y4M/edit?usp=sharing )
+- **Presentation Scipt** - [Script link](https://docs.google.com/document/d/1IB-TiJC02yjrdiHLuEEWTivqUQY1u4DY0oFXVIu_Y4M/edit?usp=sharing)
+- **Live Share** - Used to work together with live updates.
 - **Blockchain.com WebSocket API** – Provides real-time Bitcoin transaction and block data.
 - **Rust** – The main programming language for the application using VS Code.
 - **Tokio** – An asynchronous runtime for handling WebSocket connections.
